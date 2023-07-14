@@ -178,6 +178,6 @@ int main() {
     printf("Ingrese el ID de la ubicacion de fin: ");
     scanf("%d", &idFin);
     encontrarRutaMasCorta(&grafo, idInicio, idFin);
-
+    system("pause");
     return 0;
 }
